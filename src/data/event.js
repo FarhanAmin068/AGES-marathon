@@ -45,7 +45,7 @@ export const event = {
   // Google Form used for registration. Paste the "viewform" link here;
   // the site builds the embed version from it automatically.
   formUrl:
-    'https://docs.google.com/forms/d/e/1FAIpQLSeVARt22RCEAmKQqvSffZCrHjq3Pupa3w-s8iIp70sIWpERvA/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSeaDRooMaLdvF-k3GyOmu4G0GEoZ0KYdmq98TT1MJsm9GPwGQ/viewform',
 }
 
 // Registration fee and how it is paid — matches the Google Form.
@@ -53,7 +53,7 @@ export const payment = {
   fee: '৳ 699',
   method: 'bKash',
   merchantLabel: 'bKash Merchant No.',
-  merchantNumber: '+880-1820344139',
+  merchantNumber: '01711160396',
   note: 'Send the fee first, then write the last 4 digits of your bKash transaction ID in the form.',
 }
 
@@ -104,7 +104,7 @@ export const faqs = [
   },
   {
     q: 'What is the registration fee and how do I pay it?',
-    a: 'The fee is ৳699 for every participant. Send it to the bKash Merchant number +880-1820344139, then write the last 4 digits of your bKash transaction ID in the form before submitting.',
+    a: 'The fee is ৳699 for every participant. Send it by bKash to 01711160396, then write the last 4 digits of your bKash transaction ID in the form before submitting.',
   },
   {
     q: 'Which distance will I run?',

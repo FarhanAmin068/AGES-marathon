@@ -6,9 +6,11 @@ import { asset } from '../lib/asset'
 
 // What the form asks for, so people can have it ready before they open it.
 const checklist = [
-  'Your full name, mobile number and email',
-  'Date of birth, gender and t-shirt size',
-  'A photo of yourself (image, max 1 MB)',
+  'Your full name, date of birth and gender',
+  'Which school you attended (GNHS or other)',
+  'Your t-shirt size — the form lists chest and length for each',
+  'A picture of yourself (under 1 MB)',
+  'Your phone number and email',
   `The last 4 digits of your ${payment.method} transaction ID`,
 ]
 
