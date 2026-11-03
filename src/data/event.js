@@ -52,9 +52,10 @@ export const event = {
 export const payment = {
   fee: '৳ 699',
   method: 'bKash',
-  merchantLabel: 'bKash Merchant No.',
-  merchantNumber: '01711160396',
-  note: 'Send the fee first, then write the last 4 digits of your bKash transaction ID in the form.',
+  // a personal bKash number, so participants use Send Money (not Payment)
+  accountLabel: 'bKash Personal No.',
+  accountNumber: '01711160396',
+  note: 'Use Send Money on bKash, then write the last 4 digits of your transaction ID in the form.',
 }
 
 export const categories = [
@@ -104,7 +105,7 @@ export const faqs = [
   },
   {
     q: 'What is the registration fee and how do I pay it?',
-    a: 'The fee is ৳699 for every participant. Send it by bKash to 01711160396, then write the last 4 digits of your bKash transaction ID in the form before submitting.',
+    a: 'The fee is ৳699 for every participant. Use Send Money on bKash to the personal number 01711160396, then write the last 4 digits of your transaction ID in the form before submitting.',
   },
   {
     q: 'Which distance will I run?',

@@ -18,7 +18,7 @@ const steps = [
   {
     n: '01',
     title: `Pay ${payment.fee} by ${payment.method}`,
-    text: `Send the fee to the ${payment.merchantLabel} below and keep the transaction ID.`,
+    text: `Send Money to the ${payment.method} personal number below and keep the transaction ID.`,
   },
   {
     n: '02',
@@ -115,11 +115,11 @@ export function Register() {
             <div className="grid sm:grid-cols-[1.6fr_1fr]">
               <div className="p-7 sm:p-9">
                 <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-white/80">
-                  {payment.merchantLabel}
+                  {payment.accountLabel}
                 </p>
                 <div className="mt-2 flex flex-wrap items-center gap-4">
-                  <p className="display text-4xl sm:text-5xl">{payment.merchantNumber}</p>
-                  <CopyButton value={payment.merchantNumber} />
+                  <p className="display text-4xl sm:text-5xl">{payment.accountNumber}</p>
+                  <CopyButton value={payment.accountNumber} />
                 </div>
                 <p className="mt-3 max-w-md text-sm font-medium text-white/90">{payment.note}</p>
               </div>
