@@ -33,9 +33,9 @@ export const event = {
     lines: [
       { text: 'We turn visions into visuals and moments into stories.' },
       // `highlight` is picked out in red inside the feature line
-      { text: 'One school — One road — Every batch.', feature: true, highlight: 'One road' },
+      { text: 'One School, One Run, Every Batch.', feature: true, highlight: 'One Run' },
       {
-        text: 'On the 16th of December, the story is ours to run — and every step on that road is a thank-you to the school that made us.',
+        text: 'And every step together is a “Thank-You” to the school that made us.',
       },
     ],
     author: 'Team SAF',
